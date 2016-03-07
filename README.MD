@@ -1,7 +1,6 @@
-This is a CLEAN OpenWrt SDK. It contains a stripped-down version of
-the buildroot. You can use it to test/develop packages without
-having to compile your own toolchain or any of the libraries
-included with OpenWrt.
+This is CLEAN OpenWrt SDK, even exclude the toolchain dir. 
 
-To use it, just put your buildroot-compatible package directory
-in the subdir 'package/' and run 'make' from this directory.
+1. We have to download a external toolchain to a dir
+2. Edit the file .config from line 381~391 to define your own params
+3. make V=s
+
