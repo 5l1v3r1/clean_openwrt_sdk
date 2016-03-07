@@ -1,4 +1,4 @@
-This is CLEAN OpenWrt SDK. It contains a stripped-down version of
+This is a CLEAN OpenWrt SDK. It contains a stripped-down version of
 the buildroot. You can use it to test/develop packages without
 having to compile your own toolchain or any of the libraries
 included with OpenWrt.
