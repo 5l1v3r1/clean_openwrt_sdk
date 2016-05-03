@@ -1,9 +1,0 @@
-HOST_OS:=Linux
-HOST_ARCH:=x86_64
-GNU_HOST_NAME:=x86_64-linux-gnu
-TAR:=/bin/tar
-FIND:=/home/mabaiming/work/src/miwifi_sdk/sdk/staging_dir/host/bin/find
-BASH:=/bin/bash
-FIND_L=/home/mabaiming/work/src/miwifi_sdk/sdk/staging_dir/host/bin/find -L $(1)
-XARGS:=xargs -r
-PATCH:=/usr/bin/patch
